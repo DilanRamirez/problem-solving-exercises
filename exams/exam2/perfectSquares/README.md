@@ -4,7 +4,7 @@
    - Given a positive integer _n_, find the least number of perfect square numbers (for example, 1, 4, 9, 16, ...) which sum to _n_.
    - This problem has different recursive parts that I will be talking about. Let's use the following example:
      - perfectSqures(n=12) having this exmple, we will need to find the least number of perfect squre numbers that add 12. To do that, we need to identify what the perfect squares are that can sum 12. We do not neet perfect squares grater than n, but less than n. These possible perfect squares are 0, 1, 4, 9. Now, if we take a look at the problem, we will see that we will have different groups of perfect squres that can be sum 12. These groups can be seen as a tree.
-     - [logo.png](https://github.com/DilanRamirez/problem-solving-exercises/blob/master/exams/exam2/perfectSquares/logo.png)
+     - [perfectSquares.png](https://github.com/DilanRamirez/problem-solving-exercises/blob/master/exams/exam2/perfectSquares/perfectSquares.png)
 2. Plan to store solutions to sub-problems and combining them to solve the global problem (talk about the data structure/variables to solve the problem).
 3. Talk about how you used **IDEAL** and **Duke 7** to tackle the problem
    - **IDEAL**
