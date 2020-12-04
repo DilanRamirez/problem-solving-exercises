@@ -5,11 +5,11 @@
    - Given a string, your task is to count how many palindromic substrings in this string. The substrings with different start indexes or end indexes are counted as different substrings even they consist of same characters.
    - This problem a recursive part that I will be talking about. We have a string and we need to check if this string contains substrings that are palindromes. The idea is to red the string from the first letter to the last and determining if by adding one word at a time we can form a palindrome. Now the recursion comes here because if we use a string with length 3. After a few interaction, this string will be splitted into three substring of length one, two substring of length two, and finally a string of lenght three. These substring are already used previously in the past substrings, so here is where we can use dynamic programming to avoid this over use of the same substrings.
 
-1. Plan to store solutions to sub-problems and combining them to solve the global problem (talk about the data structure/variables to solve the problem)
+2. sPlan to store solutions to sub-problems and combining them to solve the global problem (talk about the data structure/variables to solve the problem)
 
    1. One possible solution for this problem is to store all subproblems is to create a matrix to store the values of the characters in the string. This matrix will have a size of n x n where n is the size of the string. All possible palindromes will be marked with a 1. If the character is already a palindrome, we do not need to check it again. Then, once we find a palindrome, we will have a counter that will be increased by one. This counter will be returned once all characteres were used.
 
-1. Talk about how you used **IDEAL** and **Duke 7** to tackle the problem
+3. Talk about how you used **IDEAL** and **Duke 7** to tackle the problem
 
    **IDEAL**
 
@@ -29,5 +29,3 @@
      - I trace a small example and tried to found what is the part that is repated.
    * **Find patterns (Generalize)**
      - In this example we use a string with length 3. After a few interaction, this string will be splitted into three substring of length one, two substring of length two, and finally a string of lenght three.
-
-1. Code your solution.

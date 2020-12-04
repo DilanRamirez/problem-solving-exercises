@@ -33,8 +33,3 @@
   - **Find patterns (Generalize)**
     - As we can see, there are numbers that are repeated every time we try to find the square numbers to sum n. Here is where we can use dynamic programming because when we are in the 1 node, all possible squares will sum +1, when we are in node 4, all possible squares will summ +4 and so on.
   - **Test by Hand:** This test can be found at [perfectSquares.png](https://github.com/DilanRamirez/problem-solving-exercises/blob/master/exams/exam2/perfectSquares/perfectSquares.png)
-  - **Translate to Code**
-  - **Test**
-  - **Debug**
-
-4. Code your solution.

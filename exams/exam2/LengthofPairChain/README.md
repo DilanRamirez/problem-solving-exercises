@@ -9,11 +9,11 @@
      - [[1,2], [2,3], [3,4]]
      - longest = [1,2] -> [3,4] = 2 chains
 
-1. Plan to store solutions to sub-problems and combining them to solve the global problem (talk about the data structure/variables to solve the problem)
+2. Plan to store solutions to sub-problems and combining them to solve the global problem (talk about the data structure/variables to solve the problem)
 
    1. One possible solution for this problem is to store all subproblems is to create a square array to store the elements that are already visited. Once we sort the internal arrays, we can create a square array n x n where n is the total numbers of the array. By doing that, we can identify what are the small numbers and how b can be less than c. If we find a chain, we can set the pair x,y = 1. Besides, we'll have a counter to increase it every time we find a chain. This counter will be returned.
 
-1. Talk about how you used **IDEAL** and **Duke 7** to tackle the problem
+3. Talk about how you used **IDEAL** and **Duke 7** to tackle the problem
 
    **IDEAL**
 
@@ -35,5 +35,3 @@
      - I trace a small example and tried to found what is the part that is repated.
    * **Find patterns (Generalize)**
      - By keeping track of the elements already visited. To implement it, first we need to sort all internal arrays. By doing it, we can identify the smallest and largest elements. Then, we can check if b < c.
-
-1. Code your solution
