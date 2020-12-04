@@ -1,4 +1,4 @@
-# \***\*Partition to K Equal Sum Subsets\*\***
+# **Partition to K Equal Sum Subsets**
 
 1. Define the problem/solution recursively.
 
@@ -12,26 +12,27 @@
 
 1. Talk about how you used **IDEAL** and **Duke 7** to tackle the problem
 
-   1. **IDEAL**
+   **IDEAL**
 
-      - **Identify Problem:** The identified problem is to create or find k subsets whose internal sums are all equal. These subset are from the original array given in the problem.
-      - **Define Goals:** The goals are to divide the main array into k number of subsets. After that, populate them with numbers whose sums are equal for all of them.
+   - **Identify Problem:** The identified problem is to create or find k subsets whose internal sums are all equal. These subset are from the original array given in the problem.
+   - **Define Goals:** The goals are to divide the main array into k number of subsets. After that, populate them with numbers whose sums are equal for all of them.
 
-      * **Possible Strategies or Solutions:** First of all,
-      * **Anticipate Outcomes and Act:** The possible outcome can be
-      * **Look and learn:**
+   * **Possible Strategies or Solutions:** first of all we need to verify k is not greater than the lenght of the array. After that, sum all numbers of the array and divide it by k to find the total value of every subset which will be our target.
+   * **Anticipate Outcomes and Act:** The possible outcome can be
+   * **Look and learn:**
 
-   2. **DUKE 7**- **Work on small instance:**
+   **DUKE 7**-
 
-      - One small instance can be
+   - **Work on small instance:**
+     - One small instance can be
 
-      * **Write down what you did:**
-        - As mentioned previously,
-      * **Find patterns (Generalize)**
-        - As we can see
-      * **Test by Hand:**
-      * **Translate to Code**
-      * **Test**
-      * **Debug**
+   * **Write down what you did:**
+     - As mentioned previously,
+   * **Find patterns (Generalize)**
+     - As we can see
+   * **Test by Hand:**
+   * **Translate to Code**
+   * **Test**
+   * **Debug**
 
 1. Code your solution.
